@@ -18,18 +18,9 @@
     color: dodgerblue;
 }
 
-.note {
-    height: auto;
-    width: 200px;
-    padding: 0.2rem 1rem;
-    margin: 0.5rem;
-    background: #ffff00;
-    box-shadow: 4px 4px 8px 1px #00000075;
-    border-radius: 2px;
-}
 
 .container {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 .pageTitle {
@@ -39,10 +30,14 @@
 }
 
 .note {
+    border-radius: 0.5rem;
     height: auto;
     width: 200px;
-    padding: 0.25rem;
-    border-radius: 2px;
+    padding: 1rem;
+    margin: 0.5rem;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 0.2) 10%, rgba(253, 29, 29, 0.2) 50%, rgba(252, 176, 69, 0.2) 100%);
+    box-shadow: 4px 4px 8px 1px #00000045;
 }
 
 .title {
